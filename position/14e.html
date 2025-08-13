@@ -1,0 +1,66 @@
+<style>
+    body {
+        height: 3000px;
+    }
+
+    .header {
+        background-color: gray;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .left {
+        display: flex;
+        align-items: center;
+        margin-left: 50px;
+    }
+    .right {
+        display: flex;
+        align-items: center;
+        margin-right: 25px;
+    }
+
+    img {
+        width: 30px;
+        border-radius: 50%;
+        margin-right: 7px;
+    }
+    p {
+        color: black;
+        font-weight: bold;
+    }
+
+    .add-btn {
+        background-color: rgb(2, 65, 148);
+        color: white;
+        height: 30px;
+        border-radius: 5px;
+        border: none;
+        width: 83px;
+    }
+    .message-btn {
+        background-color: rgb(177, 176, 176);
+        color: black;
+        border: none;
+        height: 30px;
+        border-radius: 5px;
+        width: 83px;
+        margin-left: 5px;
+    }
+</style>
+
+<div class="header">
+    <div class="left">
+        <img src="../images/MIKROPHONE.jpeg" 
+            alt="profile image">
+        <p>Oliver Cat</p>
+    </div>
+    <div class="right">
+        <button class="add-btn">Add Friend</button>
+        <button class="message-btn">Message</button>
+    </div>
+</div>

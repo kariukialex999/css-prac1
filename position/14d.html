@@ -1,0 +1,40 @@
+<style>
+    body {
+        height: 3000px;
+        padding-right: 90px;
+    }
+
+    .right-sidebar {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 80px;
+        background-color: green;
+        color: white;
+    }
+    .overlay {
+        background-color: rgba(0, 0, 0, 0.8);
+        color: white;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+</style>
+
+<div class="right-sidebar">right sidebar</div>
+
+<div class="overlay">
+    <div class="container">
+    <h1>Modal Title</h1>
+    <p>This is a modal</p>
+    <button>Close</button>
+</div>
+</div>
+

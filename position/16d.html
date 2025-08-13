@@ -1,0 +1,151 @@
+<style>
+    body {
+        height: 3000px;
+        padding-left: 50px;
+        padding-top: 50px;
+    }
+    
+    p {
+        margin: 0;
+    }
+
+    .video-card {
+        /* border: 1px solid gray; */
+        height: 370px;
+        width: 300px;
+        position: relative;
+    }
+
+    .thumbnail {
+        width: 300px;
+        height: 200px;
+    }
+
+    .profile {
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+    .video-info {
+        display: flex;
+    }
+
+    .video-details {
+        margin: 12px;
+        display: relative;
+    }
+    .video-title {
+        width: 240px;
+        margin-bottom: 12px;
+        font-weight: bold;
+    }
+    .video-author {
+        color: gray;
+        margin-bottom: 5px;
+        font-size: 14px;
+    }
+
+    .video-time {
+        color: gray;
+        font-size: 14px;
+    }
+
+    .time p {
+        background-color: black;
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+        padding: 0 4px;
+        padding-top: 3px;
+        padding-bottom: 1px;
+        position: absolute;
+    }
+
+    .time {
+        position: absolute;
+        top: 176px;
+        left: 263px;
+    }
+
+    .tooltip-image {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-left: 10px;
+    }
+
+
+
+    .tooltip {
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        box-shadow: -2px -2px 4px rgba(0, 0, 0, 0.2);
+        color: black;
+        width: 200px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 260px;
+        left: 0;
+        opacity: 0;
+    }
+
+    .profile:hover {
+        opacity: 1;
+    }
+
+    .tooltip-info {
+        margin-left: 7px;
+    }
+    .tooltip-video-author {
+        font-weight: bold;
+        margin-bottom: 3px;
+    }
+    .tooltip-video-views {
+        color: gray;
+    }
+
+</style>
+
+<div class="video-card">
+    <div class="thumbnail-image">
+        <img class="thumbnail"
+            src="../images/FUTURE_ME.jpeg"
+            alt="thumnail">
+    </div>
+    <div class="video-info">
+
+        <!-- <img class="profile" src="../images/MIKROPHONE.jpeg"
+        alt="profile picture">
+
+        <div class="tooltip">
+                <img class="tooltip-image" src="../images/MIKROPHONE.jpeg"
+                alt="tooltip-profile">
+                <div class="tooltip-info">
+                    <p class="tooltip-video-author">Markiplier</p>
+                    <p class="tooltip-video-views">15M subscribers</p>
+                </div>
+            </div> -->
+
+        <!--CONFIGURE THE TOOLTIP TO BE ACTIVE WITH
+        PROFILE HOVER-->
+
+
+        <div class="video-details">
+
+            <p class="video-title">Try Not To Laugh Challenge #9</p>
+            <p class="video-author">Markiplier</p>
+            <p class="video-time">19M views &#183; 4 years ago</p>
+
+        </div>
+
+    </div>
+    <div class="time">
+            <p>8:22</p>
+        </div>
+
+</div>

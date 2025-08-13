@@ -1,0 +1,89 @@
+<style>
+    p {
+        margin: 0;
+    }
+    body {
+        height: 3000px;
+    }
+    img {
+        width: 43px;
+        border-radius: 50%;
+        margin-bottom: 6px;
+    }
+    .double-sidebar {
+        display: flex;
+
+    }
+    .inner-sidebar {
+        background-color: rgba(22, 21, 21, 0.986);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 18px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 60px;
+    }
+    .outer-sidebar {
+        background-color: rgba(21, 21, 22, 0.884);
+        position: fixed;
+        top: 0;
+        left: 60px;
+        bottom: 0;
+        width: 165px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .info {
+        color: white;
+        padding-left: 15px;
+        margin-top: 15px;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    .plus-icon {
+        font-size: 23px;
+        color: rgb(202, 198, 198);
+        font-weight: bold;
+        margin-right: 15px;
+        margin-top: 10px;
+    }
+    .hashtags {
+        color: rgb(180, 180, 180);
+        padding-left: 15px;
+        margin-top: 10px;
+    }
+    .hashtags p {
+        margin-bottom: 15px;
+    }
+    /* .hashtags-info {
+        background-color: red;
+    } */
+</style>
+
+<div class="double-sidebar">
+    <div class="inner-sidebar">
+        <img src="../images/MIKROPHONE.jpeg"
+        alt="channel-profile">
+        <img src="../images/MIKROPHONE.jpeg"
+        alt="channel-profile">
+        <img src="../images/MIKROPHONE.jpeg"
+        alt="channel-profile">
+        
+    </div>
+    <div class="outer-sidebar">
+        <div class="hashtags-info">
+            <p class="info">INFO</p>
+            <div class="hashtags">
+                <p># new-videos</p>
+                <p># updates</p>
+                <p># faq</p>
+            </div>
+        </div>
+        <div class="plus">
+            <p class="plus-icon">+</p>
+        </div>
+    </div>
+</div>
