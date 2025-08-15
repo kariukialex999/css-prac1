@@ -1,0 +1,10 @@
+.navbar {
+    position: fixed;
+    top: 50px;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    background-color: lightcoral;
+    color: black;
+}
+

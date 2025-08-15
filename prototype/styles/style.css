@@ -1,0 +1,42 @@
+body {
+    height: 3000px;
+    padding-top: 60px;
+    padding-left: 60px;
+}
+
+* {
+    box-sizing: content-box;
+}
+/*image configuration*/
+.thumbnail-picture {
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    height: 200px;
+}
+
+.profile-picture {
+    width: 40px;
+}
+
+/*video card*/
+.video-card {
+    z-index: 2;
+    width: 300px;
+    height: 350px;
+}
+
+/* profile-icon button*/
+
+.profile-icon {
+    margin: 0;
+}
+
+/*tooltip
+
+.tooltip-profile {
+    width: 50px;
+    position: absolute;
+    z-index: 50;
+    
+} */

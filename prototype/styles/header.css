@@ -1,0 +1,10 @@
+.header-bar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+
